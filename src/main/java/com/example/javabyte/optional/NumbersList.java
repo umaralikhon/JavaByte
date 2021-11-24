@@ -25,3 +25,4 @@ public class NumbersList {
         System.out.println(max.orElse(10));
     }
 }
+
