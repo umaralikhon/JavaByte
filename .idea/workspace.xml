@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29a0e853-24d2-4237-bc3d-720d1463ecd1" name="Changes" comment="MultiThreading">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javabyte/serialization/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javabyte/serialization/Persist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javabyte/serialization/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+    <list default="true" id="29a0e853-24d2-4237-bc3d-720d1463ecd1" name="Changes" comment="Functional Interfaces">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javabyte/listiterator/ArrayListIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,26 +58,13 @@
       <recent name="E:\Pro\JavaByte" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="JavaByteApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.javabyte.JavaByteApplication" />
+  <component name="RunManager" selected="Application.ArrayListIterator">
+    <configuration name="ArrayListIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javabyte.listiterator.ArrayListIterator" />
       <module name="JavaByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.javabyte.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.javabyte.optional.Main" />
-      <module name="JavaByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.javabyte.optional.*" />
+          <option name="PATTERN" value="com.example.javabyte.listiterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.javabyte.buffer.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javabyte.stream.Main" />
       <module name="JavaByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.javabyte.buffer.*" />
+          <option name="PATTERN" value="com.example.javabyte.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javabyte.functionalinterface.Main" />
+      <module name="JavaByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javabyte.functionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListIterator" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.JavaByteApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +161,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656478227854</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Serialization">
+      <created>1657002131559</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657002131559</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Streams">
+      <created>1657011299969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657011299969</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Functional Interfaces">
+      <created>1657197728748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657197728748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +202,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Callable" />
     <MESSAGE value="MultiThreading" />
-    <option name="LAST_COMMIT_MESSAGE" value="MultiThreading" />
+    <MESSAGE value="Serialization" />
+    <MESSAGE value="Streams" />
+    <MESSAGE value="Functional Interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functional Interfaces" />
   </component>
 </project>
