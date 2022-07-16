@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29a0e853-24d2-4237-bc3d-720d1463ecd1" name="Changes" comment="Functional Interfaces">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javabyte/listiterator/ArrayListIterator.java" afterDir="false" />
+    <list default="true" id="29a0e853-24d2-4237-bc3d-720d1463ecd1" name="Changes" comment="ListIterator">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javabyte/functionalinterface/flatmap/MapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,26 +58,13 @@
       <recent name="E:\Pro\JavaByte" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListIterator">
+  <component name="RunManager" selected="Application.MapExample">
     <configuration name="ArrayListIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.javabyte.listiterator.ArrayListIterator" />
       <module name="JavaByte" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.javabyte.listiterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.javabyte.callable.Main" />
-      <module name="JavaByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.javabyte.callable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javabyte.functionalinterface.flatmap.MapExample" />
+      <module name="JavaByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javabyte.functionalinterface.flatmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapExample" />
         <item itemvalue="Application.ArrayListIterator" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657197728748</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ListIterator">
+      <created>1657255137183</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657255137183</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +212,7 @@
     <MESSAGE value="Serialization" />
     <MESSAGE value="Streams" />
     <MESSAGE value="Functional Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functional Interfaces" />
+    <MESSAGE value="ListIterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="ListIterator" />
   </component>
 </project>
